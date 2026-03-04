@@ -66,8 +66,7 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터는 개념정리 없이 MySQL 설치 후 인증사진으로 대체합니다. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
-
+![alt text](image.png)
 
 ## 3. 건물을 짓기 위한 설계도: 데이터베이스 모델링
 
