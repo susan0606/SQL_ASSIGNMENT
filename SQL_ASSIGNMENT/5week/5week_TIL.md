@@ -53,12 +53,14 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 - 단점: 추가 저장 공간(테이블 크기의 약 10%)과 처음 생성할 때 작업 시간이 필요함. 특히 데이터가 자주 변경(INSERT, UPDATE, DELETE)되는 곳에 쓰면 오히려 성능이 나빠짐.
 
 2. 클러스터형 vs 보조 인덱스
-클러스터형 인덱스 (Clustered Index)
+
+
+클러스터형 인덱스
 - 기준: 기본 키(Primary Key) 지정 시 자동 생성됨.
 - 정렬: 지정된 열을 기준으로 데이터 자체가 자동 정렬됨.
 - 개수: 테이블당 딱 1개만 생성 가능함.
 
-보조 인덱스 (Secondary Index)
+보조 인덱스
 - 기준: 고유 키(Unique) 지정 시 자동 생성됨.
 - 정렬: 별도 공간에 인덱스가 생기며 원본 데이터는 자동 정렬되지 않음 (비유: 일반 책 뒤의 찾아보기).
 - 개수: 테이블당 여러 개 생성 가능함.
